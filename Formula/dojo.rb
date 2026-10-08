@@ -1,25 +1,25 @@
 class Dojo < Formula
   desc "Coding-interview practice in your terminal, solved in your own editor"
   homepage "https://github.com/abahocodes/dojo"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/abahocodes/dojo/releases/download/v0.3.0/dojo-aarch64-apple-darwin.tar.xz"
-      sha256 "99381e1978aaf86608bff34f6c779e23d612b888aa34ef1f5b4c5c86539497b9"
+      url "https://github.com/abahocodes/dojo/releases/download/v0.4.0/dojo-aarch64-apple-darwin.tar.xz"
+      sha256 "4abe636266b04ec508604b9aa91a48112ab28274f13e637269f7040603d61bee"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/abahocodes/dojo/releases/download/v0.3.0/dojo-x86_64-apple-darwin.tar.xz"
-      sha256 "5a4a4fb5195d7cab701ea26c9e7f09060c617d1bb7c33be62d2cbf964106ab0d"
+      url "https://github.com/abahocodes/dojo/releases/download/v0.4.0/dojo-x86_64-apple-darwin.tar.xz"
+      sha256 "cae55a9f125d9f47e03109ffac1cc1d36eea41ec145edbd0715389798b0fe502"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/abahocodes/dojo/releases/download/v0.3.0/dojo-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "008b794d10b2ed6c6ae53755b5754441d045361c477a512594d27bfbd4dd990c"
+      url "https://github.com/abahocodes/dojo/releases/download/v0.4.0/dojo-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "b8b3a9697969bc6c2b75b253b0b9cc82603df175ba1dbc0560edea0955ac1139"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/abahocodes/dojo/releases/download/v0.3.0/dojo-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "14c330af3efc92f488f8ee0c6e7cdaa5768dc2ef294c909db0974076df4e9751"
+      url "https://github.com/abahocodes/dojo/releases/download/v0.4.0/dojo-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "0288c12b972283a0e8398a3bdf2f1a430f0f12c3f4f4cf99856717481f6d2009"
     end
   end
   license "MIT"
